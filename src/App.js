@@ -19,7 +19,7 @@ import Sahara from './Sahara';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/sahara">
       <div className="App">
         <Switch>
          <Route path="/checkout">
