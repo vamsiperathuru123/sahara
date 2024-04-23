@@ -14,7 +14,7 @@ function Slider(){
             </h2>
             <div className="slider" >
                 
-              <ImageScroller   >
+              <ImageScroller >
                 <div className="card">
                   <div onClick={() => {window.location.href="https://amzn.to/3iapeu7"}}  className="card-img">
                   <a href="https://www.amazon.in/Tecno-Extended-Virtual-Dimensity-Processor/dp/B09QQJNTH7?pf_rd_r=18ZPF3VHXED0HGSZZSA0&pf_rd_p=f690369a-7bb4-48bb-9349-f68a447ef06d&pd_rd_r=36fc2da3-8c2f-43b4-9220-6cd929893b20&pd_rd_w=VJQtk&pd_rd_wg=4XBPX&linkCode=li3&tag=sahara059-21&linkId=a7b028c1e2cfd6f5090724027e40b191&language=en_IN&ref_=as_li_ss_il" target="_blank" rel="noopener noreferrer"><img alt="s" border={0} src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09QQJNTH7&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=sahara059-21&language=en_IN" /></a><img src="https://ir-in.amazon-adsystem.com/e/ir?t=sahara059-21&language=en_IN&l=li3&o=31&a=B09QQJNTH7" width={1} height={1} border={0} alt="s" style={{border: 'none !important', margin: '0px !important'}} />
@@ -142,7 +142,7 @@ function Slider(){
                 
               </ImageScroller>
               </div>
-        </div>
+      </div>
    );
 }
 export default Slider;
